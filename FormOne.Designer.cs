@@ -45,6 +45,7 @@
          ButtonRichTextBox.TabIndex = 14;
          ButtonRichTextBox.Text = "RichTextBox";
          ButtonRichTextBox.UseVisualStyleBackColor = true;
+         ButtonRichTextBox.Click += ButtonRichTextBox_Click;
          // 
          // ButtonClear
          // 
@@ -54,6 +55,7 @@
          ButtonClear.TabIndex = 13;
          ButtonClear.Text = "Clear";
          ButtonClear.UseVisualStyleBackColor = true;
+         ButtonClear.Click += ButtonClear_Click;
          // 
          // ButtonListBox
          // 
@@ -63,6 +65,7 @@
          ButtonListBox.TabIndex = 12;
          ButtonListBox.Text = "ListBox";
          ButtonListBox.UseVisualStyleBackColor = true;
+         ButtonListBox.Click += ButtonListBox_Click;
          // 
          // RichTextBoxReader
          // 
@@ -91,6 +94,7 @@
          ButtonTextBox.TabIndex = 9;
          ButtonTextBox.Text = "TextBox";
          ButtonTextBox.UseVisualStyleBackColor = true;
+         ButtonTextBox.Click += ButtonTextBox_Click;
          // 
          // TextBoxReader
          // 
