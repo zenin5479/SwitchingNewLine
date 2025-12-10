@@ -31,31 +31,24 @@ namespace SwitchingNewLine
          TextBoxReader.ScrollToCaret();
       }
 
-      private void ButtonListBox_Click(object sender, System.EventArgs e)
+      private void ButtonListBox_Click(object sender, EventArgs e)
       {
          string one = "Первая строка:";
          string two = "Вторая строка:";
          string three = "Третья строка:";
          string four = "Четвертая строка:";
-
          // Вывод значения разных переменных
          string linefour = string.Format("Значения переменных: double - {0:f4}; int - {1}; bool - {2};", 8.1234, 25, false);
-
-
          ListBoxReader.Items.Add(one);
-
          ListBoxReader.Items.Add(two);
-
          ListBoxReader.Items.Add(three);
-
          ListBoxReader.Items.Add(four);
          ListBoxReader.Items.Add(linefour);
          // Прокрутка ListBox вниз
          ListBoxReader.TopIndex = ListBoxReader.Items.Count - 1;
-
       }
 
-      private void ButtonRichTextBox_Click(object sender, System.EventArgs e)
+      private void ButtonRichTextBox_Click(object sender, EventArgs e)
       {
          string one = "Первая строка:";
          string two = "Вторая строка:";
