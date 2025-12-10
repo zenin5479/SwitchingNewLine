@@ -54,21 +54,13 @@ namespace SwitchingNewLine
          string two = "Вторая строка:";
          string three = "Третья строка:";
          string four = "Четвертая строка:";
-
          // Вывод значения разных переменных
          string linefour = string.Format("Значения переменных: double - {0:f4}; int - {1}; bool - {2};", 8.1234, 25, false);
-
          RichTextBoxReader.AppendText(one);
-         RichTextBoxReader.AppendText(Environment.NewLine);
-
          RichTextBoxReader.AppendText(Environment.NewLine);
          RichTextBoxReader.AppendText(two);
          RichTextBoxReader.AppendText(Environment.NewLine);
-
-         RichTextBoxReader.AppendText(Environment.NewLine);
          RichTextBoxReader.AppendText(three);
-         RichTextBoxReader.AppendText(Environment.NewLine);
-
          RichTextBoxReader.AppendText(Environment.NewLine);
          RichTextBoxReader.AppendText(four);
          RichTextBoxReader.AppendText(Environment.NewLine);
