@@ -18,6 +18,11 @@ namespace SwitchingNewLine
          string four = "Четвертая строка:";
          // Вывод значения разных переменных
          string linefour = string.Format("Значения переменных: double - {0:f4}; int - {1}; bool - {2};", 8.1234, 25, false);
+         // TextBox
+         // Добавляет строку стирая предыдущие
+         //TextBoxReader.Text = one;
+         // Добавляет строку оставляя предыдущие
+
          TextBoxReader.AppendText(one);
          TextBoxReader.AppendText(Environment.NewLine);
          TextBoxReader.AppendText(two);
