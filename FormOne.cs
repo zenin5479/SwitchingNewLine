@@ -10,25 +10,19 @@ namespace SwitchingNewLine
          InitializeComponent();
       }
 
-      private void ButtonTextBox_Click(object sender, System.EventArgs e)
+      private void ButtonTextBox_Click(object sender, EventArgs e)
       {
          string one = "Первая строка:";
          string two = "Вторая строка:";
          string three = "Третья строка:";
          string four = "Четвертая строка:";
-
          // Вывод значения разных переменных
          string linefour = string.Format("Значения переменных: double - {0:f4}; int - {1}; bool - {2};", 8.1234, 25, false);
          TextBoxReader.AppendText(one);
          TextBoxReader.AppendText(Environment.NewLine);
-         TextBoxReader.AppendText(Environment.NewLine);
          TextBoxReader.AppendText(two);
          TextBoxReader.AppendText(Environment.NewLine);
-
-         TextBoxReader.AppendText(Environment.NewLine);
          TextBoxReader.AppendText(three);
-         TextBoxReader.AppendText(Environment.NewLine);
-
          TextBoxReader.AppendText(Environment.NewLine);
          TextBoxReader.AppendText(four);
          TextBoxReader.AppendText(Environment.NewLine);
