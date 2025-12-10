@@ -28,23 +28,23 @@
       /// </summary>
       private void InitializeComponent()
       {
-         ButtonHttpWebRequest = new System.Windows.Forms.Button();
+         ButtonRichTextBox = new System.Windows.Forms.Button();
          ButtonClear = new System.Windows.Forms.Button();
-         ButtonWebRequest = new System.Windows.Forms.Button();
+         ButtonListBox = new System.Windows.Forms.Button();
          RichTextBoxReader = new System.Windows.Forms.RichTextBox();
          ListBoxReader = new System.Windows.Forms.ListBox();
-         ButtonWebClient = new System.Windows.Forms.Button();
+         ButtonTextBox = new System.Windows.Forms.Button();
          TextBoxReader = new System.Windows.Forms.TextBox();
          SuspendLayout();
          // 
-         // ButtonHttpWebRequest
+         // ButtonRichTextBox
          // 
-         ButtonHttpWebRequest.Location = new System.Drawing.Point(204, 12);
-         ButtonHttpWebRequest.Name = "ButtonHttpWebRequest";
-         ButtonHttpWebRequest.Size = new System.Drawing.Size(110, 23);
-         ButtonHttpWebRequest.TabIndex = 14;
-         ButtonHttpWebRequest.Text = "HttpWebRequest";
-         ButtonHttpWebRequest.UseVisualStyleBackColor = true;
+         ButtonRichTextBox.Location = new System.Drawing.Point(204, 12);
+         ButtonRichTextBox.Name = "ButtonRichTextBox";
+         ButtonRichTextBox.Size = new System.Drawing.Size(110, 23);
+         ButtonRichTextBox.TabIndex = 14;
+         ButtonRichTextBox.Text = "RichTextBox";
+         ButtonRichTextBox.UseVisualStyleBackColor = true;
          // 
          // ButtonClear
          // 
@@ -55,14 +55,14 @@
          ButtonClear.Text = "Clear";
          ButtonClear.UseVisualStyleBackColor = true;
          // 
-         // ButtonWebRequest
+         // ButtonListBox
          // 
-         ButtonWebRequest.Location = new System.Drawing.Point(108, 12);
-         ButtonWebRequest.Name = "ButtonWebRequest";
-         ButtonWebRequest.Size = new System.Drawing.Size(90, 23);
-         ButtonWebRequest.TabIndex = 12;
-         ButtonWebRequest.Text = "WebRequest";
-         ButtonWebRequest.UseVisualStyleBackColor = true;
+         ButtonListBox.Location = new System.Drawing.Point(108, 12);
+         ButtonListBox.Name = "ButtonListBox";
+         ButtonListBox.Size = new System.Drawing.Size(90, 23);
+         ButtonListBox.TabIndex = 12;
+         ButtonListBox.Text = "ListBox";
+         ButtonListBox.UseVisualStyleBackColor = true;
          // 
          // RichTextBoxReader
          // 
@@ -83,14 +83,14 @@
          ListBoxReader.Size = new System.Drawing.Size(370, 184);
          ListBoxReader.TabIndex = 10;
          // 
-         // ButtonWebClient
+         // ButtonTextBox
          // 
-         ButtonWebClient.Location = new System.Drawing.Point(12, 12);
-         ButtonWebClient.Name = "ButtonWebClient";
-         ButtonWebClient.Size = new System.Drawing.Size(90, 23);
-         ButtonWebClient.TabIndex = 9;
-         ButtonWebClient.Text = "WebClient";
-         ButtonWebClient.UseVisualStyleBackColor = true;
+         ButtonTextBox.Location = new System.Drawing.Point(12, 12);
+         ButtonTextBox.Name = "ButtonTextBox";
+         ButtonTextBox.Size = new System.Drawing.Size(90, 23);
+         ButtonTextBox.TabIndex = 9;
+         ButtonTextBox.Text = "TextBox";
+         ButtonTextBox.UseVisualStyleBackColor = true;
          // 
          // TextBoxReader
          // 
@@ -106,12 +106,12 @@
          AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
          AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
          ClientSize = new System.Drawing.Size(771, 419);
-         Controls.Add(ButtonHttpWebRequest);
+         Controls.Add(ButtonRichTextBox);
          Controls.Add(ButtonClear);
-         Controls.Add(ButtonWebRequest);
+         Controls.Add(ButtonListBox);
          Controls.Add(RichTextBoxReader);
          Controls.Add(ListBoxReader);
-         Controls.Add(ButtonWebClient);
+         Controls.Add(ButtonTextBox);
          Controls.Add(TextBoxReader);
          Name = "FormOne";
          StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -122,12 +122,12 @@
 
       #endregion
 
-      private System.Windows.Forms.Button ButtonHttpWebRequest;
+      private System.Windows.Forms.Button ButtonRichTextBox;
       private System.Windows.Forms.Button ButtonClear;
-      private System.Windows.Forms.Button ButtonWebRequest;
+      private System.Windows.Forms.Button ButtonListBox;
       private System.Windows.Forms.RichTextBox RichTextBoxReader;
       private System.Windows.Forms.ListBox ListBoxReader;
-      private System.Windows.Forms.Button ButtonWebClient;
+      private System.Windows.Forms.Button ButtonTextBox;
       private System.Windows.Forms.TextBox TextBoxReader;
    }
 }
