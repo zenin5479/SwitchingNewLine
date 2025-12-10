@@ -34,8 +34,9 @@
          // 
          AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
          AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-         ClientSize = new System.Drawing.Size(832, 483);
+         ClientSize = new System.Drawing.Size(859, 563);
          Name = "FormOne";
+         StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
          Text = "Переход на новую строку";
          ResumeLayout(false);
       }
